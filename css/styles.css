@@ -66,10 +66,10 @@ img{
 
 .l-header{
     background-color: var(--first-color); 
-    width: 100%;
+    width: 90%;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 3rem;
     z-index: var(--z-fixed);
     
 }
@@ -174,7 +174,7 @@ img{
     background-color: var(--first-color-darken);
 }
 
-@media screen and(min-width: 768px) {
+@media screen and (min-width: 768px) {
     body{
         margin: 0;
     }
